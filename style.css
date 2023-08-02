@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+span, a {
+    display: inline-block;
+}
+.tepa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.lef {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pic {
+    width: 50%;
+}
+.rig {
+    width: 50%;
+}
+.al1 {
+    background-image: url("Popular\ Destinations.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding-bottom: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.link {
+    color: white;
+    text-decoration: none;
+    margin-right:10px ;
+}
+.flex, .ooo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.ooo {
+    color: rgb(247, 187, 75);
+}
+.flex {
+    max-width: 50%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 7px 10px;
+    
+}
+.left {
+    margin-left: 10px;
+    color: black;
+}
+.text3 {
+    color: grey;
+}
+.magni{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    color: white;
+    background-color: purple;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+}
+.btn {
+    padding: 18px 36px;
+    background-color: purple;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 100px;
+}
+.title {margin-top: 100px;
+margin-bottom: 20px;
+font-size: 56px;
+color: white;
+}
+    .flec, .aspad, .pas {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        }
+        .al2 {
+            max-width: 70%;    
+    margin: auto;
+         padding-bottom: 40px;
+        }
+    .box {
+        width: calc(100%/6);
+    }
+    .title2 {
+        margin-bottom: 20px;
+    }
+    .all2 {
+        padding-top:40px ;
+        padding-bottom:40px ;
+    }
+    .coer {
+        max-width: 70%;
+        margin: auto;
+    }
+    .boox {
+        width: 23%;
+    }
+    .ot {
+        color: yellow;
+    }
+    .textr {
+        width: 100%;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .lfd, .boxx, .psr, .div {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+           margin-bottom: 40px;
+    }
+    .divc {
+        max-width: 70%;
+        margin: auto;
+    }
+    .fic {
+        width: 30%;
+        height: 100%;
+    }
+    .lefr {
+        width: 65%;
+    }
+    .boxx {
+        width: 45%;
+    }
+    .title4 {
+        margin-bottom: 40px;
+    }
+    .texty {
+        margin-bottom: 40px;
+    }
+   
+    .ortr {
+        max-width: 70%;
+        margin: auto;
+    }
+    .bbox {
+        width: 23%;
+    }
+    .fdf, .safas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 40px 0px;
+    }
+    .rigf {
+        width: 45%;
+    }
+    .tre {
+        width:  45%;
+        border-radius: 20px;
+    }
+ .safas {
+max-width: 70%;
+margin: auto;
+padding: 40px;
+    }.tt {
+        margin-bottom: 40px;
+    }
+    .outyo {
+        margin-bottom: 30px;
+    }
+    .ftg {
+        color: palevioletred;
+        border: none;
+        border-radius: 10px;
+        padding: 4px;
+    }
+    .pos {
+        display: flex;
+    flex-wrap: wrap;
+align-items: center; 
+color: black;
+background-color: rgba(128, 128, 128, 0.428);  
+padding: 50px 60px;
+}
+.fox {
+    width: 19%;
+}
+.cow {
+    width: 19%;
+    margin-left: 10px;
+}
+.form {
+    width: 19%;
+}
+.sdfs {
+    max-width: 59%;
+}
+.all {
+    max-width: 1500px;
+}
+
+@media(max-width:1000px){
+    .box {
+        width: 49%;
+    }
+    .boox {
+        width: 100%;
+    }
+    .boxx {
+        width: 100%;
+    }
+    .bbox {
+        width: 100%;
+    }
+    .cox {
+        width: 100%;
+    }
+    .rigf {
+        width: 100%;
+    }
+    .fox {
+        width: 50%;
+    }
+    .ooo {
+        width: 48%;
+    }
+    .pic2 {
+        width: 10%;
+    }
+    .orab {
+        width: 100%;
+        font-size: 30px;
+    }
+}
+@media(max-width:600px){
+    .ooo {
+        width:100%;
+    }
+    
+    .box {
+        width: 100%;
+    }
+    .fic {
+        width: 100%;
+    }
+    .lefr {
+        width: 100%;
+        padding: 0px;
+    }
+}
